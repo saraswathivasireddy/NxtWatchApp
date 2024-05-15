@@ -33,7 +33,7 @@ class App extends Component {
   setSavedList = itemList => {
     const {savedList} = this.state
     if (savedList.includes(itemList) === false) {
-      this.setState(prevState => ({savedList: [...savedList, itemList]}))
+      this.setState(prevState => ({savedList: [...prevState.savedList, itemList]}))
     }
   }
 

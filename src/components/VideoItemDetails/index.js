@@ -192,7 +192,6 @@ class VideoItemDetails extends Component {
     return (
       <NxtWatchContext.Consumer>
         {value => {
-          const {isDarkTheme} = value
           return (
             <div>
               <Header />

@@ -16,7 +16,7 @@ class Videossaved extends Component {
     return (
       <NxtWatchContext.Consumer>
         {value => {
-          const {isDarkTheme, savedList} = value
+          const {savedList} = value
           return (
             <SavedVideosContainer>
               {savedList.map(eachSavedVideo => (
@@ -34,7 +34,6 @@ class Videossaved extends Component {
       <NxtWatchContext.Consumer>
         {value => {
           const {isDarkTheme, savedList} = value
-          console.log(savedList)
           return (
             <div>
               <Header />

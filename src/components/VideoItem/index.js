@@ -10,7 +10,6 @@ import {
 } from './styledComponents'
 import {BsDot} from 'react-icons/bs'
 
-
 import NxtWatchContext from '../../NxtWatchContext'
 
 const VideoItem = props => {
@@ -45,9 +44,7 @@ const VideoItem = props => {
                   <ThumbnailViewsYearsContainer>
                     <p>{eachVideo.viewCount} views</p>
                     <BsDot />
-                    <p>
-                     
-                    </p>
+                    <p></p>
                   </ThumbnailViewsYearsContainer>
                 </div>
               </ThumbnailContent>
